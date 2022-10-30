@@ -41,6 +41,9 @@ function App() {
             description="First website I made and deployed on github. Learned the basics of html and css."
           />
         </div>
+        <div id="aboutme" className="aboutme-section">
+          <Banner heading="About Me"/>
+        </div>
       </div>
     </div>
   );
