@@ -1,11 +1,11 @@
 import React from "react";
 
-function Card() {
+function Card(props) {
   return (
     <div className="card">
-      <img src="" alt="project image" />
-      <h3>Project Title</h3>
-      <p>project description</p>
+      <a href={props.pageURL}><img src={props.imgURL} alt="project image" /></a>
+      <a href={props.pageURL}>{props.title}</a>
+      <p>{props.description}</p>
     </div>
   );
 }

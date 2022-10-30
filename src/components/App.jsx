@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "./Card";
 import Banner from "./Banner";
+import idealCarThumbnail from "../src_images/ideal-car-corp-thumbnail.png";
+import mySiteThumbnail from "../src_images/my-site-thumbnail.png";
+import keeperAppThumbnail from "../src_images/keeper-app-thumbnail.png";
 
 function App() {
   return (
@@ -17,9 +20,27 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="projects-section">
+      <div id="projects" className="projects-section">
         <Banner heading="Projects"/>
-        <Card />
+        <div className="card-wrapper">
+          <Card
+            pageURL="https://jad229.github.io/Car-Page/"
+            imgURL={idealCarThumbnail}
+            title="Ideal Car Corp"
+            description="E-commerce car website I developed for Ideal Car Corp using reactjs, html, and css."
+          />
+          <Card
+            imgURL={keeperAppThumbnail}
+            title="Keeper App"
+            description="Google keep clone, that taught me the basics of reactjs components, mapping, hooks, and other basics."
+          />
+          <Card
+            pageURL="https://jad229.github.io/My-Site/"
+            imgURL={mySiteThumbnail}
+            title="Personal Website"
+            description="First website I made and deployed on github. Learned the basics of html and css."
+          />
+        </div>
       </div>
     </div>
   );

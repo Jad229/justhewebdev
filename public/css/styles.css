@@ -68,3 +68,21 @@ body{
 .banner h2{
   font-size: 1.5rem;
 }
+.card-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+.card{
+  font-family: 'Outfit', sans-serif;
+  padding: 10px;
+  background-color: #ECE5C7;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 20px 4px #000000;
+}
+.card a{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #800080;
+}
