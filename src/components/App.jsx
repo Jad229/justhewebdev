@@ -37,12 +37,23 @@ function App() {
           <Card
             pageURL="https://jad229.github.io/My-Site/"
             imgURL={mySiteThumbnail}
-            title="Personal Website"
+            title="Old Personal Website"
             description="First website I made and deployed on github. Learned the basics of html and css."
           />
         </div>
         <div id="aboutme" className="aboutme-section">
           <Banner heading="About Me"/>
+          <div className="aboutme-card">
+            <p>
+              Hello! Welcome to my little space on the internet! I’m Justin Diaz, a Front-End Developer.
+              I love technology and all kinds of games. I’m a Computer Technology undergraduate at NJIT.
+              I’ve made several web apps and I don’t plan to stop anytime soon. As the industry grows I plan
+              to grow with it and learn the latest frameworks and libraries.
+            </p>
+          </div>
+        </div>
+        <div id="player-stats">
+          <Banner heading="Player Card"/>
         </div>
       </div>
     </div>
