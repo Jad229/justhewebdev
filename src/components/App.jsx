@@ -4,28 +4,15 @@ import Banner from "./Banner";
 import idealCarThumbnail from "../src_images/ideal-car-corp-thumbnail.png";
 import mySiteThumbnail from "../src_images/my-site-thumbnail.png";
 import keeperAppThumbnail from "../src_images/keeper-app-thumbnail.png";
-import idPhoto from "../src_images/JD.png";
 import idPhoto2 from "../src_images/Justin-pose.png"
-import htmlLogo from "../src_images/HTML.png"
-import cssLogo from "../src_images/css.png"
-import javascriptLogo from "../src_images/javascript.png"
-import googleLogo from "../src_images/google-plain.svg"
-import figmaLogo from "../src_images/figma.svg"
-import bootstrapLogo from "../src_images/bootstrap-plain.svg"
-import gitLogo from "../src_images/git.png"
-import jqueryLogo from "../src_images/jquery-plain.svg"
-import nodejsLogo from "../src_images/nodejs.png"
-import reactLogo from "../src_images/react-original.svg"
-import phpLogo from "../src_images/php-plain.svg"
+import PlayerCard from "./PlayerCard";
+import Navigation from "./Navigation";
 
 function App() {
   return (
     <div>
       <div className="hero-wrapper">
-        <div className="navbar">
-          <div className="nav-btn"><a href="#aboutme">About Me</a></div>
-          <div className="nav-btn"><a href="#projects">Projects</a></div>
-        </div>
+        <Navigation />
         <div className="hero-section">
           <div className="hero-title-container">
             <h1>Hey! I'm Justin</h1>
@@ -55,6 +42,7 @@ function App() {
             title="Old Personal Website"
             description="Ex-personal website created and deployed for the use of practicing fundamental Html and CSS basics."
           />
+
         </div>
         <Banner heading="About Me"/>
         <div id="aboutme" className="aboutme-section">
@@ -71,36 +59,7 @@ function App() {
         </div>
         <Banner heading="Player Card"/>
         <div id="player-stats" className="skills-section">
-
-          <div className="player-card">
-            <div className="bio">
-              <h2>Name: Justin Diaz</h2>
-              <div className="id-photo-background">
-                <img src={idPhoto} alt="id photo"/>
-              </div>
-              <h2>Lv. 21</h2>
-            </div>
-
-            <div className="skills">
-              <h2>Skills</h2>
-              <div className="skill-board">
-                <img className="skill-logo" src={htmlLogo} alt="html logo"/>
-                <img className="skill-logo" src={cssLogo} alt="css logo"/>
-                <img className="skill-logo" src={javascriptLogo} alt="javascript logo"/>
-                <img className="skill-logo" src={bootstrapLogo} alt="react logo"/>
-                <img className="skill-logo" src={jqueryLogo} alt="react logo"/>
-                <img className="skill-logo" src={nodejsLogo} alt="react logo"/>
-                <img className="skill-logo" src={reactLogo} alt="react logo"/>
-                <img className="skill-logo" src={gitLogo} alt="react logo"/>
-                <img className="skill-logo" src={phpLogo} alt="react logo"/>
-                <img className="skill-logo" src={googleLogo} alt="react logo"/>
-                <img className="skill-logo" src={figmaLogo} alt="react logo"/>
-              </div>
-              <p>Passive: Gets bonus focus when listening to great music.</p>
-
-            </div>
-
-          </div>
+          <PlayerCard />
         </div>
       </div>
     </div>
