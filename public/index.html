@@ -3,14 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <title>Justin the Web Dev</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="preload">
     <script src="../src/index.js"></script>
     <div id="root"></div>
+    <script>
+
+      setTimeout(function() {
+          $("body").toggleClass("preload");
+          $(".loader-wrapper").fadeOut('slow');
+      }, 7000);
+
+    </script>
   </body>
 </html>

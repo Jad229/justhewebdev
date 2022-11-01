@@ -1,16 +1,19 @@
 import React from "react";
 import Card from "./Card";
 import Banner from "./Banner";
+import Footer from "./Footer";
 import idealCarThumbnail from "../src_images/ideal-car-corp-thumbnail.png";
 import mySiteThumbnail from "../src_images/my-site-thumbnail.png";
 import keeperAppThumbnail from "../src_images/keeper-app-thumbnail.png";
 import idPhoto2 from "../src_images/Justin-pose.png"
 import PlayerCard from "./PlayerCard";
 import Navigation from "./Navigation";
+import LoaderScreen from "./LoaderScreen";
 
 function App() {
   return (
     <div>
+      <LoaderScreen />
       <div className="hero-wrapper">
         <Navigation />
         <div className="hero-section">
@@ -62,6 +65,7 @@ function App() {
           <PlayerCard />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

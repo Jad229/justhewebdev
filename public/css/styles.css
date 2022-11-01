@@ -12,10 +12,48 @@ var(--purple) Text
   --purple: #800080;
   --shadow: grey;
 }
-
+.loader-wrapper{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-size: cover;
+}
+.loader-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/pixel-horizon.png");
+  color: white;
+  width: 100%;
+  height: 80%;
+}
+.loader-wrapper h1{
+  text-shadow: -10px 10px 10px var(--shadow);
+}
+.loader-sprite{
+  width: 300px;
+  height: auto;
+}
 body{
   font-family: 'Press Start 2P', sans-serif;
   background: linear-gradient(var(--light-green), var(--light-blue));
+}
+.preload{
+  overflow: hidden;
+}
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 1.8rem;
 }
 
 /* Hero section styles */
@@ -39,6 +77,9 @@ body{
   text-align: center;
   box-shadow: 4px 4px 4px;
 }
+.nav-btn:hover{
+  background-color: var(--purple);
+}
 .hero-section{
   flex-direction: column;
   display: flex;
@@ -57,9 +98,8 @@ body{
   box-shadow: 23px 22px 10px -4px #E4D1B9;
 }
 .hero-title-container h1{
-  font-size: 2rem;
   margin: 5%;
-  text-shadow: 0px 4px 1px var(--shadow);
+  text-shadow: 0 4px 1px var(--shadow);
   color: var(--purple);
 }
 .hero-title-container img{
@@ -78,11 +118,9 @@ body{
   padding: 20px;
   text-align: center;
   border-radius: 20px;
-  box-shadow: 0px 4px 10px var(--shadow);
+  box-shadow: 0 4px 10px var(--shadow);
 }
-.banner h2{
-  font-size: 1.8rem;
-}
+
 .card-wrapper{
   display: flex;
   flex-wrap: wrap;
@@ -95,6 +133,9 @@ body{
   width: 30%;
   border-radius: 10px;
   box-shadow: 2px 4px 20px 4px var(--shadow);
+}
+.card:hover{
+  background-color: #57D2F4;
 }
 .card a{
   font-size: 1.8rem;
@@ -142,7 +183,6 @@ body{
 }
 .player-card h2{
   margin: 2% 0;
-  font-size: 1.5rem;
 }
 .bio{
   width: 50%;
@@ -170,4 +210,23 @@ body{
 .skill-logo{
   width: 50px;
   height: 50px;
+}
+
+/*Footer styles*/
+
+.footer{
+  margin-top: 3%;
+  background-color: var(--light-green);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.socials{
+
+}
+.footer img{
+  width: 10%;
 }
