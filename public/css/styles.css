@@ -15,11 +15,14 @@ var(--purple) Text
 
 body{
   font-family: 'Press Start 2P', sans-serif;
+  background: linear-gradient(var(--light-green), var(--light-blue));
 }
+
 /* Hero section styles */
+
 .hero-wrapper{
   background-image: url("../images/Pixel_forest_day.jpg");
-  padding-bottom: 20%;
+  background-repeat: no-repeat;
 }
 .navbar{
   width: 100%;
@@ -55,17 +58,21 @@ body{
 }
 .hero-title-container h1{
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin: 5%;
   text-shadow: 0px 4px 1px var(--shadow);
   color: var(--purple);
 }
+.hero-title-container img{
+  height: 200vh;
+}
+
 /* Projects section Styles */
+
 .projects-section{
-  background: linear-gradient(var(--light-green), var(--light-blue));
   padding: 10px;
 }
 .banner{
-  margin: auto;
+  margin: 4% auto;
   background-color: var(--beige);
   width: 60%;
   padding: 20px;
@@ -74,12 +81,11 @@ body{
   box-shadow: 0px 4px 10px var(--shadow);
 }
 .banner h2{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .card-wrapper{
   display: flex;
   justify-content: space-evenly;
-  padding: 5%;
 }
 .card{
   font-family: 'Outfit', sans-serif;
@@ -90,12 +96,17 @@ body{
   box-shadow: 2px 4px 20px 4px var(--shadow);
 }
 .card a{
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: var(--purple);
 }
 
+.card p{
+  font-size: 1.5rem;
+}
+
 /*Styles for Aboutme Section*/
+
 .aboutme-section{
   display: flex;
   flex-direction: column;
@@ -107,9 +118,55 @@ body{
   font-size: 2rem;
   background-color: var(--beige);
   width: 60%;
-  margin-top: 5%;
   padding: 5%;
   text-align: center;
   border-radius: 10px;
   box-shadow: 2px 4px 20px 4px var(--shadow);
+}
+
+/*Styles for skills section*/
+
+.skills-section{
+  margin: auto;
+  padding: 3%;
+  background-color: var(--beige);
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 20px 4px var(--shadow);
+}
+.player-card{
+  text-align: center;
+  display: flex;
+  align-items: start;
+}
+.player-card h2{
+  margin: 2% 0;
+  font-size: 1.5rem;
+}
+.bio{
+  width: 50%;
+}
+.bio img{
+  border-radius: 10px;
+  box-shadow: -19px 15px 20px 2px var(--shadow);
+}
+.id-photo-background{
+  border-radius: 10px;
+  background-color: var(--light-blue);
+}
+.skills{
+  margin: auto;
+  width: 30%;
+  height: auto;
+}
+.skill-board{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.skill-logo{
+  width: 50px;
+  height: 50px;
 }
