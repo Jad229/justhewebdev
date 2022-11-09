@@ -9,7 +9,7 @@ function LoaderScreen(){
             <div className="loader-content">
                 <span ><img src={justinWalkin} alt="loader sprite"/></span>
                 <Typed
-                    strings={["<h2>Hello Stranger! ready for an adventure?</h2>"]}
+                    strings={["<h2>Hello, Stranger! Ready for an adventure?</h2>"]}
                     typeSpeed={50}
                     backSpeed={100}
                 />

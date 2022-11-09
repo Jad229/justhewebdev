@@ -21,7 +21,7 @@ function App() {
             <h1>Hey! I'm Justin</h1>
             <p>Front-End Developer</p>
           </div>
-          <img src={idPhoto2} alt="id photo"/>
+
         </div>
       </div>
       <Banner heading="Projects"/>
