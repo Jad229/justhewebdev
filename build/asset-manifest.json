@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/justhewebdev/static/css/main.fc1f6d3c.css",
-    "main.js": "/justhewebdev/static/js/main.b548636d.js",
+    "main.css": "/justhewebdev/static/css/main.e0841e3d.css",
+    "main.js": "/justhewebdev/static/js/main.5427a312.js",
     "static/media/ideal-car-corp-thumbnail.png": "/justhewebdev/static/media/ideal-car-corp-thumbnail.35ac09d839e2591c2989.png",
     "static/media/Pixel_forest_day.jpg": "/justhewebdev/static/media/Pixel_forest_day.c807572aac26d1ed66a3.jpg",
     "static/media/pixel-horizon.png": "/justhewebdev/static/media/pixel-horizon.041e1727a38da4777eec.png",
@@ -16,11 +16,11 @@
     "index.html": "/justhewebdev/index.html",
     "static/media/figma.svg": "/justhewebdev/static/media/figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
     "static/media/google-plain.svg": "/justhewebdev/static/media/google-plain.6822c8a097e1e40010605a595867ca7d.svg",
-    "main.fc1f6d3c.css.map": "/justhewebdev/static/css/main.fc1f6d3c.css.map",
-    "main.b548636d.js.map": "/justhewebdev/static/js/main.b548636d.js.map"
+    "main.e0841e3d.css.map": "/justhewebdev/static/css/main.e0841e3d.css.map",
+    "main.5427a312.js.map": "/justhewebdev/static/js/main.5427a312.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc1f6d3c.css",
-    "static/js/main.b548636d.js"
+    "static/css/main.e0841e3d.css",
+    "static/js/main.5427a312.js"
   ]
 }

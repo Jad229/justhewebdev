@@ -10,7 +10,7 @@ function Footer() {
             <div className="socials">
                 <a href="https://www.linkedin.com/in/justinamarydiaz/"><img src={linkedinLogo} alt="linkedin logo"/></a>
                 <a href="https://github.com/Jad229"><img src={githubLogo} alt="github logo"/></a>
-                <img src={idPhoto2} alt="id photo"/>
+                <img id="idPhoto2" src={idPhoto2} alt="id photo"/>
             </div>
             <p>&copy; {currentYear} Justin Diaz</p>
         </div>

@@ -223,14 +223,24 @@ h2{
   background-color: var(--light-green);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 .socials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.socials > * {
+  width: 50px;
+  height: 50px;
+}
+#idPhoto2{
+  width: 10vw;
+  height: 20vh;
+}
 
-}
-.footer img{
-  width: 10%;
-}
+
