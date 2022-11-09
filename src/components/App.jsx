@@ -9,6 +9,9 @@ import idPhoto2 from "../src_images/Justin-pose.png"
 import PlayerCard from "./PlayerCard";
 import Navigation from "./Navigation";
 import LoaderScreen from "./LoaderScreen";
+import tinDogThumbnail from "../src_images/tindog-thumbnail.png";
+import bookstoreThumbnail from "../src_images/bookstoreThumbnail.png";
+import routerRebootThumbnail from "../src_images/router-reboot-thumbnail.png";
 
 function App() {
   return (
@@ -43,7 +46,25 @@ function App() {
             pageURL="https://jad229.github.io/My-Site/"
             imgURL={mySiteThumbnail}
             title="Old Personal Website"
-            description="Ex-personal website created and deployed for the use of practicing fundamental Html and CSS basics."
+            description="Ex-personal website created and deployed for the use of practicing fundamental HTML and CSS basics."
+          />
+          <Card
+              pageURL="https://jad229.github.io/Tinder-Clone/"
+              imgURL={tinDogThumbnail}
+              title="Tinder Clone"
+              description="A mock Tinder website for dogs where I learned fundamental Bootstrap basics such as, carousels and jumbotrons"
+          />
+          <Card
+              pageURL="https://jad229.github.io/Library-Sign-Up/"
+              imgURL={bookstoreThumbnail}
+              title="Bookstore Database"
+              description="Library sign up form that is connected to a database. Practiced several tools which include, phpMyAdmin, PHP, Javascript, HTML, and CSS"
+          />
+          <Card
+              pageURL="https://jad229.github.io/Router-Reboot/"
+              imgURL={routerRebootThumbnail}
+              title="Router Reboot"
+              description="UNDER CONSTRUCTION. Coming soon..."
           />
 
         </div>
