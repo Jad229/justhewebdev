@@ -38,6 +38,7 @@ function App() {
             description="Ideal Car Corp E-commerce website developed using Reactjs, Html, and CSS. "
           />
           <Card
+            pageURL="https://jad229.github.io/keeper-app/"
             imgURL={keeperAppThumbnail}
             title="Keeper App"
             description="A Google keep clone for learning the principles of Reactjs components, mapping, hooks, and additional basics."
